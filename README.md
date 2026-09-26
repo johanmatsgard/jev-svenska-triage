@@ -41,7 +41,7 @@ Questions and test set are done. The test harness is next, and results will go h
 
 ## After the test
 
-If Jev holds up here, I want to use it inside Apollo, our marketing platform: to decide which model handles a task, to check generated copy against our house rules before it goes out, and later to pre-sort incoming leads. I'm starting with public comments and generated copy, so no customer data leaves Elvy before we have a data processing agreement in place.
+If Jev holds up here, I want to use it inside Apollo, our marketing platform: first to decide which model handles which task, and later to pre-sort incoming leads, which are around 700 a week across ten salespeople. I'm starting with public comments, so no customer data leaves Elvy before we have a data processing agreement in place.
 
 ## Why Swedish
 
