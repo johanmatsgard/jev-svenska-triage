@@ -1,0 +1,100 @@
+{"id":1,"text":"Vad kostar det i månaden för en villa på 150 kvm?","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":2,"text":"Hur lång bindningstid är det?","action":"reply_cta","topic":"contract","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":3,"text":"Vad händer om jag säljer huset?","action":"reply_cta","topic":"contract","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":4,"text":"Funkar det när det är minus 25 ute?","action":"reply_cta","topic":"performance","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":5,"text":"Ingår service eller betalar man extra för det?","action":"reply_cta","topic":"service","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":6,"text":"Vi har bergvärme som är 18 år gammal, är det här något för oss?","action":"reply_cta","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":7,"text":"Hur lång tid tar installationen?","action":"reply_cta","topic":"installation","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":8,"text":"Går det att få om man har direktverkande el?","action":"reply_cta","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":9,"text":"Blir det billigare än att köpa en värmepump själv över tio år?","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":10,"text":"Hur låter den? Grannen har en som bullrar som en traktor","action":"reply_cta","topic":"performance","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":11,"text":"Vad händer om den går sönder mitt i vintern?","action":"reply_cta","topic":"service","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":12,"text":"Finns ni i Umeå?","action":"reply_cta","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":13,"text":"Kan man få ROT-avdrag på det här?","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":14,"text":"Intressant! Hur ansöker man?","action":"reply_cta","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":15,"text":"Vi har radiatorer från 70-talet, funkar det ändå?","action":"reply_cta","topic":"performance","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":16,"text":"Höjs månadspriset efter några år?","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":17,"text":"Äger man pumpen efter avtalstiden?","action":"reply_cta","topic":"contract","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":18,"text":"Hur varmt blir det inne egentligen?","action":"reply_cta","topic":"performance","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":19,"text":"Kan jag säga upp om jag inte är nöjd?","action":"reply_cta","topic":"contract","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":20,"text":"Vem gör installationen, egna montörer eller underleverantörer?","action":"reply_cta","topic":"installation","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":21,"text":"Låter som ett abonnemangsträsk. Man betalar i evigheter och äger ingenting.","action":"reply_cta","topic":"contract","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":22,"text":"Haha ännu en prenumeration, snart prenumererar vi på luften vi andas","action":"reply_cta","topic":"contract","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":23,"text":"Räkna på det så ser ni att ni blir blåsta. Köp själv.","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":24,"text":"Värmepumpar klarar inte svensk vinter, alla vet det","action":"reply_cta","topic":"performance","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":25,"text":"Är det här ens ett riktigt företag? Aldrig hört talas om er","action":"reply_cta","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":26,"text":"Vad är haken? Det finns alltid en hake","action":"reply_cta","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":27,"text":"Lycka till när ni går i konkurs om två år och folk står utan värme","action":"reply_cta","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":28,"text":"Samma sak som leasingbilar. Dyrt i längden.","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":29,"text":"Och när elpriset rusar igen, vem betalar då?","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":30,"text":"Ni tjänar ju pengar på att folk inte kan räkna","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":31,"text":"Min svåger köpte en pump för 90 000 och den har gått i 15 år utan problem. Varför skulle jag betala varje månad?","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":32,"text":"Ännu ett startup som ska rädda klimatet 🙄","action":"reply_cta","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":33,"text":"Vad händer med mina pengar om ni försvinner?","action":"reply_cta","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":34,"text":"Snyggt paketerat men säkert massa finstilt","action":"reply_cta","topic":"contract","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":35,"text":"Kör hellre vedpanna som farfar, den har aldrig krävt någon månadsavgift","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":36,"text":"Idioter","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":37,"text":"Bedragare hela bunten","action":"hide","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":38,"text":"Sluta spamma mitt flöde med er skit","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":39,"text":"🤡🤡🤡","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":40,"text":"Vilka jävla clowner","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":41,"text":"Skämmes","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":42,"text":"Dra åt helvete med er reklam","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":43,"text":"Patetiskt","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":44,"text":"Hoppas ni går under","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":45,"text":"Skräpföretag","action":"hide","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":46,"text":"Blockerar er nu","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":47,"text":"Fy fan vad ni är äckliga","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":48,"text":"Lurendrejare 👎👎","action":"hide","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":49,"text":"Ingen jävel går på det här","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":50,"text":"Ni borde skämmas som lurar pensionärer","action":"hide","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":51,"text":"Vi har väntat sex veckor på installation och ingen svarar när vi ringer","action":"kundservice","topic":"installation","genuine_complaint":true,"existing_customer":true,"difficulty":"easy"}
+{"id":52,"text":"Pumpen har stått still sedan i fredags och huset är 14 grader. Hallå?","action":"kundservice","topic":"service","genuine_complaint":true,"existing_customer":true,"difficulty":"easy"}
+{"id":53,"text":"Montören lämnade ett hål i väggen och har inte hört av sig sedan","action":"kundservice","topic":"installation","genuine_complaint":true,"existing_customer":true,"difficulty":"easy"}
+{"id":54,"text":"Fick en faktura på dubbla beloppet den här månaden, vad är det som händer?","action":"kundservice","topic":"price","genuine_complaint":true,"existing_customer":true,"difficulty":"easy"}
+{"id":55,"text":"Ni lovade återkoppling i tisdags. Fortfarande inget.","action":"kundservice","topic":"service","genuine_complaint":true,"existing_customer":true,"difficulty":"easy"}
+{"id":56,"text":"Värmepumpen låter jättehögt på natten sedan installationen, grannarna klagar","action":"kundservice","topic":"performance","genuine_complaint":true,"existing_customer":true,"difficulty":"easy"}
+{"id":57,"text":"Ansökte för en månad sedan och har inte fått något besked alls","action":"kundservice","topic":"service","genuine_complaint":true,"existing_customer":false,"difficulty":"hard"}
+{"id":58,"text":"Er app visar fel temperatur hela tiden","action":"kundservice","topic":"service","genuine_complaint":true,"existing_customer":true,"difficulty":"easy"}
+{"id":59,"text":"Vi har bokat installation tre gånger och alla tre har ställts in","action":"kundservice","topic":"installation","genuine_complaint":true,"existing_customer":true,"difficulty":"easy"}
+{"id":60,"text":"Varmvattnet tar slut efter fem minuter sedan ni bytte pumpen","action":"kundservice","topic":"performance","genuine_complaint":true,"existing_customer":true,"difficulty":"easy"}
+{"id":61,"text":"Ni är fan värdelösa, tredje veckan utan fungerande värme och ingen på kundtjänst tar ansvar","action":"kundservice","topic":"service","genuine_complaint":true,"existing_customer":true,"difficulty":"hard"}
+{"id":62,"text":"Skitföretag. Montören körde sönder vår gräsmatta och ingen vill ersätta det","action":"kundservice","topic":"installation","genuine_complaint":true,"existing_customer":true,"difficulty":"hard"}
+{"id":63,"text":"Bedragare! Ni drog pengar från mitt konto fast jag sagt upp avtalet","action":"kundservice","topic":"contract","genuine_complaint":true,"existing_customer":true,"difficulty":"hard"}
+{"id":64,"text":"Har varit kund sedan i våras, supernöjda! Huset har aldrig varit så jämnvarmt","action":"reply_no_cta","topic":"performance","genuine_complaint":false,"existing_customer":true,"difficulty":"easy"}
+{"id":65,"text":"Installationen gick smidigt, montörerna var jättetrevliga","action":"reply_no_cta","topic":"installation","genuine_complaint":false,"existing_customer":true,"difficulty":"easy"}
+{"id":66,"text":"Vi har Elvy och kan rekommendera, servicen är toppen","action":"reply_no_cta","topic":"service","genuine_complaint":false,"existing_customer":true,"difficulty":"easy"}
+{"id":67,"text":"Bästa beslutet vi tagit för huset i år 👌","action":"reply_no_cta","topic":"other","genuine_complaint":false,"existing_customer":true,"difficulty":"hard"}
+{"id":68,"text":"Kan intyga att det funkar i minusgrader, vi bor i Jämtland och har haft det sedan förra vintern","action":"reply_no_cta","topic":"performance","genuine_complaint":false,"existing_customer":true,"difficulty":"easy"}
+{"id":69,"text":"Snabb hjälp när pumpen larmade, tekniker kom dagen efter. Tack!","action":"reply_no_cta","topic":"service","genuine_complaint":false,"existing_customer":true,"difficulty":"easy"}
+{"id":70,"text":"Äntligen slipper vi oroa oss för reparationer","action":"reply_no_cta","topic":"service","genuine_complaint":false,"existing_customer":true,"difficulty":"hard"}
+{"id":71,"text":"Vi har haft er i ett halvår och elräkningen har sjunkit rejält","action":"reply_no_cta","topic":"price","genuine_complaint":false,"existing_customer":true,"difficulty":"easy"}
+{"id":72,"text":"Nöjd kund här, trots att jag var skeptisk från början","action":"reply_no_cta","topic":"other","genuine_complaint":false,"existing_customer":true,"difficulty":"easy"}
+{"id":73,"text":"Rekommenderade er till grannen, de har ansökt nu","action":"reply_no_cta","topic":"other","genuine_complaint":false,"existing_customer":true,"difficulty":"hard"}
+{"id":74,"text":"Finns ni på Gotland?","action":"reply_no_cta","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":75,"text":"Vi bor i Visby, kan vi ansöka?","action":"reply_no_cta","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":76,"text":"Kommer ni till Gotland snart?","action":"reply_no_cta","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":77,"text":"Hemse här, låter intressant. Hur funkar det för oss?","action":"reply_no_cta","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":78,"text":"Vad kostar det för ett hus i Slite?","action":"reply_no_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":79,"text":"Tjäna 50 000 kr i veckan hemifrån! Klicka på länken i min profil 💰💰","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":80,"text":"Grattis! Du har vunnit en iPhone 17, skriv DM för att hämta ut","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":81,"text":"Köp följare billigt på www.boostfollow.xyz","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":82,"text":"Jag investerade i krypto med hjälp av @mentor_lisa och har nu 400 000 i månaden","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":83,"text":"Elvy Support: Ditt konto har spärrats, verifiera här bit.ly/elvy-verify","action":"hide","topic":"trust","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":84,"text":"Billiga värmepumpar direkt från fabrik, skriv till mig privat","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":85,"text":"Hot singles in your area 🔥","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":86,"text":"Följ mig för dagliga tips om aktier 📈","action":"hide","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":87,"text":"@Anna_Karlsson kolla här, var det inte det här vi pratade om?","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":88,"text":"@Mikael @Sara","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":89,"text":"😂😂","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":90,"text":"Snygg hund i reklamen!","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":91,"text":"Vem är skådespelaren?","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":92,"text":"👍","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":93,"text":"Första!","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":94,"text":"Vilken låt är det i bakgrunden?","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":95,"text":"@Johan_E det här borde du kolla på till stugan","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"easy"}
+{"id":96,"text":"Såg er reklam på bussen idag","action":"ignore","topic":"other","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":97,"text":"Jaha och vad kostar det då? Säkert en förmögenhet, ni skriver ju aldrig priset","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":98,"text":"Lurendrejeri. Vad händer när bolaget säljs och nya ägaren höjer priset?","action":"reply_cta","topic":"price","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
+{"id":99,"text":"Kund sedan i juni. Allt bra med pumpen men fakturan kom med fel belopp, vart vänder jag mig?","action":"kundservice","topic":"price","genuine_complaint":true,"existing_customer":true,"difficulty":"hard"}
+{"id":100,"text":"Idioter som tror att en värmepump räcker för ett hus från 1920 utan tilläggsisolering","action":"reply_cta","topic":"performance","genuine_complaint":false,"existing_customer":false,"difficulty":"hard"}
