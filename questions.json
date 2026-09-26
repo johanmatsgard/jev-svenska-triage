@@ -1,0 +1,39 @@
+{
+  "action": {
+    "type": "choice",
+    "instructions": "A Swedish comment on a paid social ad from Elvy, a residential energy subscription company (heat pump, service and repairs for a monthly price). What should the social team do with it?",
+    "criteria": {
+      "reply_cta": "A real question, objection or skeptical/mocking comment with some substance. Reply for the readers of the thread and include the call to action.",
+      "reply_no_cta": "Deserves a reply but no sales call to action: praise from an existing customer, or a question from Gotland.",
+      "kundservice": "A genuine complaint from a customer or someone in an active case. Route to customer service. Never hide these, even if the tone is rude.",
+      "hide": "Hostility or insults with no question or argument in it, or spam and scams. Hide, do not block.",
+      "ignore": "Needs nothing: tagging friends, emojis, off-topic chatter."
+    }
+  },
+  "topic": {
+    "type": "choice",
+    "instructions": "What is the comment mainly about?",
+    "criteria": {
+      "price": "Monthly price, total cost, whether it pays off",
+      "contract": "Binding period, terms, what happens when moving or selling the house",
+      "installation": "Installation process, timing, the installer",
+      "performance": "Heating performance, cold weather, noise, indoor temperature",
+      "service": "Service, repairs, customer service",
+      "trust": "Whether the company or offer can be trusted, scam suspicion",
+      "other": "Anything else or no clear topic"
+    }
+  },
+  "genuine_complaint": {
+    "type": "noul",
+    "instructions": "Is the commenter describing a real problem they personally have with Elvy's product, installation or service?"
+  },
+  "existing_customer": {
+    "type": "noul",
+    "instructions": "Does the comment indicate the commenter is already an Elvy customer?"
+  },
+  "purchase_intent": {
+    "type": "score",
+    "instructions": "How close is this person to wanting the product?",
+    "levels": ["none", "low", "curious", "interested", "ready"]
+  }
+}
