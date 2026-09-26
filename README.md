@@ -1,34 +1,33 @@
-# 🇸🇪 jev-svenska-triage
+# jev-svenska-triage
 
-**Can a decision model moderate Swedish social comments well enough to act on its own?**
+Testing whether TypeSafe's [Jev](https://typesafe.ai) can handle comments on our Swedish social media ads well enough to act without a person checking every one.
 
-I run marketing at [Elvy](https://www.elvyenergy.com/). Our paid social ads collect hundreds of Swedish comments: real questions, skeptics, angry customers, trolls and scam bots. Each one needs the right move, and the wrong move is expensive. Hiding a genuine complaint is a brand problem. Letting a phishing comment sit under an ad is worse.
+At Elvy our ads get a steady stream of comments: questions, skeptics, unhappy customers, trolls and the occasional scam bot. Each needs a different response. The mistake I care most about is hiding a real complaint, so that's what I'm measuring hardest. The other question is whether Jev's confidence can tell us which comments are safe to handle automatically.
 
-This repo tests [Jev](https://typesafe.ai), TypeSafe's System One model, on that job. It uses 100 hand-labeled Swedish comments and real house rules, and it measures one thing above accuracy: **does Jev's confidence tell you when it's safe to act without a human?**
+## Questions
 
-## The decision
+Every comment gets five questions in one call ([questions.json](./questions.json)):
 
-Every comment gets five typed questions in one call ([`questions.json`](./questions.json)):
-
-| Question | Type | Values |
+| Question | Type | Answers |
 |---|---|---|
-| `action` | Choice | reply_cta · reply_no_cta · kundservice · hide · ignore |
-| `topic` | Choice | price · contract · installation · performance · service · trust · other |
+| `action` | Choice | reply_cta, reply_no_cta, kundservice, hide, ignore |
+| `topic` | Choice | price, contract, installation, performance, service, trust, other |
 | `genuine_complaint` | Noul | yes / no |
 | `existing_customer` | Noul | yes / no |
-| `purchase_intent` | Score | none → ready |
+| `purchase_intent` | Score | none to ready |
 
-The labels encode Elvy's actual moderation rules:
-- Hide substanceless hostility, never block.
-- **Never hide a genuine complaint, however rude.**
-- Skeptics and mockers still get a reply with a call to action, because the reply is written for everyone reading the thread.
-- Existing-customer praise and Gotland get a reply without one.
+The labels follow the rules our team already uses:
 
-## The eval set
+- Hide pure hostility, don't block
+- Never hide a real complaint, however rude
+- Skeptics still get a reply with a call to action, since the reply is really for everyone else reading
+- Existing customers praising us, and people on Gotland, get a reply without one
 
-[`eval/comments.jsonl`](./eval/comments.jsonl): 100 synthetic comments written to mirror real traffic. No customer data. A third are tagged `hard`. These include rude complaints that must *not* be hidden, sarcasm with a real question inside, a phishing comment impersonating Elvy support, and Gotland place names that never say "Gotland".
+## Test set
 
-| action | n |
+[eval/comments.jsonl](./eval/comments.jsonl) has 100 comments I wrote to resemble what we actually get. No real customer data. About a third are marked hard: rude complaints that shouldn't be hidden, sarcasm with a real question in it, a phishing comment pretending to be Elvy support, and Gotland towns that never mention Gotland.
+
+| action | count |
 |---|---|
 | reply_cta | 38 |
 | hide | 23 |
@@ -38,18 +37,8 @@ The labels encode Elvy's actual moderation rules:
 
 ## Status
 
-The question set and the labeled eval are done. The eval harness is in progress, and results will land here with the exact model version they were run against.
+Questions and test set are done. The test harness is next, and results will go here along with the model version they were run against. I'll be looking at accuracy overall and on the hard cases, how many real complaints end up hidden, whether accuracy rises with Jev's confidence, and at what confidence level it's safe to act automatically.
 
-What will be measured:
-- Action accuracy, overall and on the hard third
-- **Genuine complaints wrongly hidden** (the safety metric)
-- Calibration: does accuracy rise with Jev's confidence?
-- The threshold *t* above which Jev can act without a human, chosen as the lowest *t* with zero wrongly-hidden complaints
-- Latency and cost for the full set
+## Why Swedish
 
-## Why this matters beyond Elvy
-
-Most published Jev evals are in English. Swedish is a small language full of sarcasm, dialect and compound words, so it's a useful stress test for any team outside the English-speaking world deciding whether a typed decision model can sit in production.
-
----
-Built by [Johan Matsgård](https://github.com/johanmatsgard), CMO at Elvy.
+Most published Jev tests are in English. Swedish comments are short, often sarcastic and full of compound words, which makes them a decent test for anyone outside English wondering whether this works for them.
