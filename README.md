@@ -39,6 +39,10 @@ The labels follow the rules our team already uses:
 
 Questions and test set are done. The test harness is next, and results will go here along with the model version they were run against. I'll be looking at accuracy overall and on the hard cases, how many real complaints end up hidden, whether accuracy rises with Jev's confidence, and at what confidence level it's safe to act automatically.
 
+## After the test
+
+If Jev holds up here, I want to use it inside Apollo, our marketing platform: to decide which model handles a task, to check generated copy against our house rules before it goes out, and later to pre-sort incoming leads. I'm starting with public comments and generated copy, so no customer data leaves Elvy before we have a data processing agreement in place.
+
 ## Why Swedish
 
 Most published Jev tests are in English. Swedish comments are short, often sarcastic and full of compound words, which makes them a decent test for anyone outside English wondering whether this works for them.
